@@ -15,7 +15,7 @@ const Greeting = (props: GreetingProps) => {
 
     return (
         <div>
-            <p className='greeting-paragraph'>Hello {name}. You are {props.age} years old.</p>
+            <p className='greeting-paragraph'>Hello {name}! You are {props.age} years old.</p>
             <button onClick={changeName}>Change my name</button>
 
             <button id='b1' onClick={handleButtonClick}>button 1</button>
